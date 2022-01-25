@@ -407,6 +407,16 @@ p {
   transform: scale(0.2);
 }
 
+.goose3 {
+  transform: scale(0.16)translateY(-35px);
+}
+
+.goose3:hover {
+  cursor: pointer;
+  transform: scale(0.22)translateY(-35px);
+}
+
+
 .g {
   display: none;
 }
