@@ -381,3 +381,40 @@ p {
   background-color: black;
   z-index: -1;
 }
+
+.smallGoose {
+  position: absolute;
+  top: -82px;
+  right: 667px;
+  display: flex;
+  width: 100px;
+  flex-direction: row;
+}
+
+.goose {
+  transform: scale(0.125);
+  margin-right: -210px;
+  padding: 10px;
+  transition: ease-in-out 0.5s;
+}
+
+.goose1 {
+  display: block;
+}
+
+.goose:hover {
+  cursor: pointer;
+  transform: scale(0.2);
+}
+
+.g {
+  display: none;
+}
+
+.g1 {
+  display: block;
+}
+
+.g3 {
+  transform: scale(1.2)translateX(29px)translateY(-29px);
+}
